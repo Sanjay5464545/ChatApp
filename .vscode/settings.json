@@ -1,6 +1,13 @@
 {
+<<<<<<< HEAD
   "files.exclude": {
     "**/node_modules": true
   },
   "json.validate.enable": false
 }
+=======
+    "liveServer.settings.port": 5501
+    
+}
+
+>>>>>>> bdc26da313d456224cce9a5584b108a1dca260c6
