@@ -1,4 +1,5 @@
-const socket = io('http://localhost:8000');
+const socket = io("https://chatapp-backend-kn7a.onrender.com");
+
 
 const form = document.getElementById('send-container')
 const messageInput = document.getElementById('messageInp')
@@ -36,5 +37,5 @@ socket.on('receive', data => {
 })
 
 socket.on('left', data => {
-        append(`${name} leave the chat `, 'right ')
-})
+  append(`${data.name} left the chat`, 'right');
+});
